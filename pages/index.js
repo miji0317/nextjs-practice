@@ -15,6 +15,9 @@ export default function Home() {
         <li><Link href="/sub2">/sub2/index.js</Link></li>
         <li><Link href="/sub/about">/sub/about.js</Link></li>
         <li><Link href="/sub/1">/sub/[id].js</Link></li>
+        <li><Link href="/api/topic">topics</Link></li>
+        <li><Link href="/api/topic/1">topic-1</Link></li>
+        <li><Link href="/api/topic/2">topic-2</Link></li>
       </ol>
     </div>
   )
